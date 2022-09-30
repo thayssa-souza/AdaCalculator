@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aiVR3ujHduZYyXYD9IrinGSyQacmrGPVn9UmlvbyDQAe19n2DUMO6FEKix899XeHnUNK7DJirmsoWqghEtW3YA==",
+  "dgSpecHash": "cdevj1IFYkKRGU4NZmbvPRSudPQf+CblHNN4HWvo5Vu0t0BviUkM9mM4BkwIomJUHRpF5mxSb9CpsJRsV18bJQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\thays\\Source\\Repos\\AdaCalculator\\AdaCalculator.Tests\\AdaCalculator.Tests.csproj",
+  "projectFilePath": "C:\\Users\\thays\\source\\repos\\AdaCalculator\\AdaCalculator.Tests\\AdaCalculator.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thays\\.nuget\\packages\\castle.core\\5.1.0\\castle.core.5.1.0.nupkg.sha512",
     "C:\\Users\\thays\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
