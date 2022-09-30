@@ -23,7 +23,7 @@ namespace AdaCalculator.Tests
         [InlineData("sum", 44, 46, 100)]
         [InlineData("sum", 12.4, 2.1, 14.5)]
         [InlineData("sum", -2, 3, 1)]
-        public void CalculatorMachine_SummingTwoNumbers_ShouldBeResult(string sum, double numb1, double numb2, double result)
+        public void CalculatorMachine_SummingTwoNumbersWithMocks_ShouldBeResult(string sum, double numb1, double numb2, double result)
         {
            _calculatorMock.Setup(x => x.Calculate(sum, numb1, numb2)).Returns((sum, result));
            var sutResult = _sutCalculator.Calculate(sum, numb1, numb2);
@@ -45,7 +45,7 @@ namespace AdaCalculator.Tests
         [InlineData("divide", 15, 3, 5)]
         [InlineData("divide", 5, 2, 2.5)]
         [InlineData("divide", 12, 1, 12)]
-        public void CalculatorMachine_DivingTwoNumbers_ShouldBeResult(string divide, double numb1, double numb2, double result)
+        public void CalculatorMachine_DivingTwoNumbersWithMocks_ShouldBeResult(string divide, double numb1, double numb2, double result)
         {
             _calculatorMock.Setup(x => x.Calculate(divide, numb1, numb2)).Returns((divide, result));
             var sutResult = _sutCalculator.Calculate(divide, numb1, numb2);
