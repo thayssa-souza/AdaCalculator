@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AdaCalculator
-{ 
-    public class Calculator: ICalculator
+﻿namespace AdaCalculator
+{
+    public class Calculator : ICalculator
     {
         public (string operation, double result) Calculate(string operation, double a, double b)
         {

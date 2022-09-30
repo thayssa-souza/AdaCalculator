@@ -1,4 +1,4 @@
-﻿namespace AdaCalculator
+﻿ namespace AdaCalculator
 {
     public interface ICalculator
     {
